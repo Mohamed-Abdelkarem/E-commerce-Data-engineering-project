@@ -13,7 +13,7 @@ Dimensional modeling is a cornerstone of effective data warehousing. Structuring
 In this project, I adopted a robust dimensional modeling approach, establishing fact tables (e.g., Fact_Order, Fact_Feedback) to encapsulate core transactional data, alongside dimension tables (e.g., Date, Seller, Product) that offer contextual depth for comprehensive analysis across time, location, and product categories.
 
 This approach enables faster queries, scalable analysis, and user-friendly reporting, making the data warehouse efficient for uncovering insights and supporting business intelligence.
-
+![dimensional model](https://github.com/Mohamed-Abdelkarem/e-commerce-data-engineering-project-/blob/main/dimensional%20model.png)
 
 ## Skills and Technologies:
 •  **Microsoft SQL Server:** Used for database creation and management, SQL Server allows for efficient querying and data manipulation, supporting complex operations needed in data warehousing.
