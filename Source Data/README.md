@@ -1,6 +1,9 @@
 # Source Data
 This folder contains the source CSV files used to populate the data warehouse. Each file represents a distinct entity or aspect of the e-commerce dataset. Below is a summary of each file's contents, along with the columns in each file.
 
+<img src="https://github.com/Mohamed-Abdelkarem/e-commerce-data-engineering-project-/blob/main/Source%20Data/source_data.png" alt="dimensional model" width="790" height="530">
+
+
 ## File Descriptions
 •  **order.csv:**
 Contains details for each customer order, including order status and key dates.
