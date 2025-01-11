@@ -4,6 +4,8 @@ This project focuses on building a comprehensive e-commerce data warehouse, demo
 
 Using dimensional modeling and multiple fact tables, I’ve created a system that captures order, item, payment, and feedback details with flexibility for detailed analysis. This project highlights essential skills in data engineering, from managing complex joins, redundancy, and granularity to ensuring data integrity, query performance, and data consistency across a scalable schema.
 
+[Click to view info about the Source Data](./Source%20Data/README.md)
+
 
 ## Dimensional Modeling: Strategic Importance
 Dimensional modeling is a cornerstone of effective data warehousing. Structuring data into fact tables for transactional metrics and dimension tables for contextual attributes. This architecture streamlines data retrieval, supports sophisticated analytics, and optimizes performance for high-demand reporting environments.
