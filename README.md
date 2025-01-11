@@ -14,7 +14,7 @@ In this project, I adopted a robust dimensional modeling approach, establishing 
 
 This approach enables faster queries, scalable analysis, and user-friendly reporting, making the data warehouse efficient for uncovering insights and supporting business intelligence.
 
-[Click to view the Evolution of the Dimensional Model Design](Dimensional_Model_Design_Overview/README.md)
+[Click to view the Evolution of the Dimensional Model Design](./Dimensional%20Model%20Design%20Overview/README.md)
 
 <img src="https://github.com/Mohamed-Abdelkarem/e-commerce-data-engineering-project-/blob/main/dimensional%20model.png" alt="dimensional model" width="400" height="450">
 
