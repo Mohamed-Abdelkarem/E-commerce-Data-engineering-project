@@ -13,9 +13,9 @@ To increase granularity, I restructured the model to use a single fact table cen
 ### 3.	Final Model - Multi-Fact Approach: 
 In the final stage, I implemented four distinct fact tables: Order, Item in Order, Feedback, and Payment. This separation addressed the need to capture multiple entries for certain aspects of each order, such as multiple items, payments, or feedback records associated with a single order. By dividing the data into specialized fact tables, I achieved a balance between detail and clarity, enabling more focused analysis and avoiding the redundancy that would result from a single, large fact table.
 
-<img src="https://github.com/Mohamed-Abdelkarem/e-commerce-data-engineering-project-/blob/main/Dimensional%20Model%20Design%20Overview/third%20dimensional%20model%20design.png" alt="third dimensional model design" width="400" height="450">
-
 [Click to view the details of the Fact tables and the Dimensions](Tables_[Facts-Dimensions]_Overview.md)
+
+<img src="https://github.com/Mohamed-Abdelkarem/e-commerce-data-engineering-project-/blob/main/Dimensional%20Model%20Design%20Overview/third%20dimensional%20model%20design.png" alt="third dimensional model design" width="400" height="450">
 
 ####	* Alternative Considered: 
 I evaluated the option of a single "big fact table" with a granularity of "item per feedback per payment per order." While this approach could potentially improve query speed (since all data would be in one table), it would lead to excessive storage usage due to high redundancy (e.g., one order could span numerous rows). In contrast, the four-fact-table approach, though requiring more processing during joins, provides a more systematic and organized data structure, with each fact table dedicated to a specific area of the sales process.
