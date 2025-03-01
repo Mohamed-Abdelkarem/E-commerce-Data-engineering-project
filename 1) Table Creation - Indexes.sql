@@ -1,8 +1,6 @@
 use ecommerce
 ------- CREATE THE DIMENSION TABLES -------
 
---DROP TABLE Dim_User;
-
 -- 1) Dim_Date
 CREATE TABLE Dim_Date (
     date_key INT PRIMARY KEY,
